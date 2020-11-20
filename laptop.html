@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Computer Solution</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5eb3f4492a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <section id="navbar">
+      <nav class="navbar bg-primary navbar-expand-lg navbar-dark ">
+        <div class="container">
+
+
+  <a class="navbar-brand" href="#"><h1><span style="color:purple;">Computer</span> Solution</h1></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="laptop.html">Laptop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="monitor.html">Monitor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="printer.html">Printer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="laptop.html">Laptop</a>
+          <a class="dropdown-item" href="monitor.html">Monitor</a>
+          <a class="dropdown-item" href="keyboard.html">Keyboard</a>
+          <a class="dropdown-item" href="mouse.html">Mouse</a>
+          <a class="dropdown-item" href="printer.html">Printer</a>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+<br>
+
+<section id="Laptop">
+  <div class="container">
+
+
+    <div class="alert alert-primary" role="alert">
+      <h5> Laptop <h5>
+    </div>
+
+    <div class="row">
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top img-height" id="image-one" src="images/image-one.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" id="h5-one">Acer Laptop</h5>
+              <p class="card-text card-text-height" id="p-one"><small class="text-muted">
+                15.6" diagonal, FHD (1920 x 1080), 144 Hz.
+                Intel® Core™ i7-10750H. Intel® HM470.
+                16 GB DDR4-2933 SDRAM, 512 GB PCIe® NVMe™ M.2 SSD
+                NVIDIA® GeForce RTX™ 2060 (6 GB GDDR6 dedicated)
+                Windows 10 Home 64</small></p>
+                <center><h4 id="h4-one">40000</h4><span class="old-price" > Rs.45,000</span></center>
+              <hr><a href="viewproduct.html">
+              <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="one" onclick="view(this.id)">View Product</button></a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top img-height" id="image-two" src="images/image-two.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" id="h5-two">Hp Laptop</h5>
+              <p class="card-text card-text-height" id="p-two"><small class="text-muted">
+                15.6" diagonal, FHD (1920 x 1080), 144 Hz.
+                Intel® Core™ i7-10750H. Intel® HM470.
+                16 GB DDR4-2933 SDRAM, 512 GB PCIe® NVMe™ M.2 SSD
+                NVIDIA® GeForce RTX™ 2060 (6 GB GDDR6 dedicated)
+                Windows 10 Home 64</small></p>
+                <center><h4 id="h4-two">90000</h4><span class="old-price" > Rs.100,000</span></center>
+              <hr><a href="viewproduct.html">
+              <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="two" onclick="view(this.id)">View Product</button></a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-seventeen" src="images/image-seventeen.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-seventeen">Adventor</h5>
+            <p class="card-text card-text-height" id="p-seventeen"><small class="text-muted">
+              Nordic Minimalist Design | 1.28 TFT Display
+              From Lenevo
+              The ingenuity of design within reach
+              TFT high-definition screen brightness
+              IP68 waterproof, 1 year warranty, glass protector and glass cleaner in box official sticker
+              of Xiaomi.</small></p>
+                <center><h4 id="h4-seventeen">70000</h4><span class="old-price" > Rs.75000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="seventeen" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-seven" src="images/image-seven.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-seven">Dell G5 Gaming Laptop</h5>
+            <p class="card-text card-text-height" id="p-seven"><small class="text-muted">
+              15-inch gaming laptop with 10th Gen Intel®Cor...
+
+                10th Generation Intel® Core™ i5-10300H (8MB Cache, up to 4.5 GHz, 4 cores)
+                8GB DDR4-2933MHz, 256GB M.2 PCIe NVMe SSD
+                NVIDIA® GeForce® GTX 1660 Ti 6GB GDDR6
+                 US Backlit Keyboard. 15.6" FHD Display
+            </small></p>
+                <center><h4 id="h4-seven">189999</h4><span class="old-price" > Rs.200,000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="seven" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top img-height" id="image-ten" src="images/image-ten.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" id="h5-ten">HP ENVY x360 </h5>
+              <p class="card-text card-text-height" id="p-ten"><small class="text-muted">
+                Product number: 9HP23UA. 15.6" diagonal FHD I...
+
+                Intel® Core™ i5-1035G1
+                8 GB DDR4-3200 SDRAM, 256GB PCIe® NVMe™ M.2 SSD
+                Intel® UHD Graphics
+                Windows 10 Home 64</small></p>
+                <center><h4 id="h4-ten">150000</h4><span class="old-price" > Rs.160000</span></center>
+              <hr><a href="viewproduct.html">
+              <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="ten" onclick="view(this.id)">View Product</button></a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-eighteen" src="images/image-eighteen.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-eighteen">Dell</h5>
+            <p class="card-text card-text-height" id="p-eighteen"><small class="text-muted">
+              The ultimate cable management for your gaming...
+
+              Dimension: 63 x 97 x 88mm
+              Weight: 265 grams
+              Weight: 265 grams
+              Base: Rubber.</small></p>
+                <center><h4 id="h4-eighteen">70000</h4><span class="old-price" > Rs.74,999</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="eighteen" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-twelve" src="images/image-twelve.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-twelve">Lenovo ThinkBook 15</h5>
+            <p class="card-text card-text-height" id="p-twelve"><small class="text-muted">
+              Powered by 10th Gen Intel® Core™ processing, ...
+
+              Intel Core i5-1035G1 Processor
+              4GB Soldered DDR4 | 1TB HDD 5400rpm 2.5"
+              AMD Radeon 630 2GB GDDR5
+              15.6" FHD Display | FingerPrint Reader | DOS</small></p>
+                <center><h4 id="h4-twelve">94000</h4><span class="old-price" > Rs.95,000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="twelve" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-nineteen" src="images/image-nineteen.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-nineteen">Hp Precog</h5>
+            <p class="card-text card-text-height" id="p-nineteen"><small class="text-muted">
+              The XPG PRECOG is the world’s first dual-driv...
+
+                Dual Drivers including (Electrostatic and Dynamic)
+                Hi-Res Audio Certified
+                Built-in FPS / Virtual 7.1 Surround Sound / Music Modes
+                Environmental Noise Cancellation Technology for Microphone</small></p>
+                <center><h4 id="h4-nineteen">21000</h4><span class="old-price" > Rs.22500</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="nineteen" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<br>
+
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h1><span style="color:white;">Computer</span> Solution</h1>
+        <p>Welcome to Computer Solution. Online Computer store in Pakistan. Buy Dell, Lenovo, HP, Acer laptops at best prices in Pakistan.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+
+        <h3>Products</h3>
+
+
+            <a href=""><li>Laptop</li></a>
+            <a href=""><li>Moniter</li></a>
+            <a href=""><li>Printer</li></a>
+
+
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h3>Follow Us</h3>
+         <p><a href="#"> <i class="fab fa-facebook fa-2x"></i></a></p>
+         <p><a href="#"><i class="fab fa-instagram fa-2x"></i></a></p>
+         <p><a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a></p>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h3>Contact Us</h3>
+         <p><i class="fas fa-map-marker-alt fa-2x"></i><br>Address : shop 14 main computer market</p>
+         <p><i class="far fa-envelope fa-2x"></i><br>ghazihassan480@gmail.com </p>
+         <p><i class="fas fa-phone fa-2x"></i><br>03103484234</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #f6f5f5;
+}
+#cart{
+  background-color: #f6f5f5;
+}
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.slider-height{
+  height: 600px;
+
+}
+h1,h2,p{
+  font-family: 'Merriweather', serif;
+}
+.space{
+  margin-top: 10px;
+}
+.old-price{
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.img-height{
+  height: 200px;
+}
+#footer{
+  padding: 3%;
+background-color:  #064f88;
+
+}
+#footer p,a,h1,h3{
+  color:#eeeeee;
+  text-decoration-line: none;
+}
+#footer a:hover{
+  color:black;
+  text-decoration-line: none;
+}
+.card-text-height{
+  height: 200px;
+}
+#view-product h5 ,p ,h4{
+  color:black;
+}
+.spacer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+a:hover{
+  text-decoration-line: none;
+}
+.col{
+  margin-bottom: 20px;
+}

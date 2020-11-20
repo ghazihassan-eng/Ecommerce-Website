@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Computer Solution</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5eb3f4492a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <section id="navbar">
+      <nav class="navbar bg-primary navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+
+
+  <a class="navbar-brand" href="#"><h1><span style="color:purple;">Computer</span> Solution</h1></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="laptop.html">Laptop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="monitor.html">Monitor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="printer.html">Printer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="laptop.html">Laptop</a>
+          <a class="dropdown-item" href="monitor.html">Monitor</a>
+          <a class="dropdown-item" href="keyboard.html">Keyboard</a>
+          <a class="dropdown-item" href="mouse.html">Mouse</a>
+          <a class="dropdown-item" href="printer.html">Printer</a>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+    </section>
+
+
+
+
+<section id="slider" >
+  <div class="container-fluid" style="padding-left:0px; padding-right:0px;">
+
+
+  <div id="carouselExampleIndicators" class="carousel slide space" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 slider-height" src="images/slider1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 slider-height" src="images/slider2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 slider-height" src="images/slider3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</section>
+
+<br>
+
+<section id="feature">
+  <div class="container">
+
+
+    <div class="alert alert-primary" role="alert">
+      <center><h2> Featured Products <h2></center>
+    </div>
+
+    <div class="row">
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top img-height" id="image-one" src="images/image-one.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" id="h5-one">Acer Laptop</h5>
+              <p class="card-text card-text-height" id="p-one"><small class="text-muted">
+                15.6" diagonal, FHD (1920 x 1080), 144 Hz.
+                Intel® Core™ i7-10750H. Intel® HM470.
+                16 GB DDR4-2933 SDRAM, 512 GB PCIe® NVMe™ M.2 SSD
+                NVIDIA® GeForce RTX™ 2060 (6 GB GDDR6 dedicated)
+                Windows 10 Home 64</small></p>
+                <center><h4 id="h4-one">40000</h4><span class="old-price" > Rs.45,000</span></center>
+              <hr><a href="viewproduct.html">
+              <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="one" onclick="view(this.id)">View Product</button></a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top img-height" id="image-two" src="images/image-two.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" id="h5-two">Hp Laptop</h5>
+              <p class="card-text card-text-height" id="p-two"><small class="text-muted">
+                15.6" diagonal, FHD (1920 x 1080), 144 Hz.
+                Intel® Core™ i7-10750H. Intel® HM470.
+                16 GB DDR4-2933 SDRAM, 512 GB PCIe® NVMe™ M.2 SSD
+                NVIDIA® GeForce RTX™ 2060 (6 GB GDDR6 dedicated)
+                Windows 10 Home 64</small></p>
+                <center><h4 id="h4-two">90000</h4><span class="old-price" > Rs.100,000</span></center>
+              <hr><a href="viewproduct.html">
+              <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="two" onclick="view(this.id)">View Product</button></a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-three" src="images/image-three.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-three">Smart Watch</h5>
+            <p class="card-text card-text-height" id="p-three"><small class="text-muted">
+              Nordic Minimalist Design | 1.28 TFT Display
+              From Xiaomi
+              The ingenuity of design within reach
+              TFT high-definition screen brightness
+              IP68 waterproof, 1 year warranty, glass protector and glass cleaner in box official sticker
+              of Xiaomi.</small></p>
+                <center><h4 id="h4-three">7000</h4><span class="old-price" > Rs.7,500</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="three" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-four" src="images/image-four.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-four">Samsung Curved</h5>
+            <p class="card-text card-text-height" id="p-four"><small class="text-muted">
+              27" Advanced Curved Monitor
+              Curved 27" 1800R Screen Curvature
+              Panel Type VA. Flicker Free. Game Mode. Easy Setting Box.
+              Resolution 1920 x 1080. Response Time 4ms
+              Samsung MagicBright.</small></p>
+                <center><h4 id="h4-four">50000</h4><span class="old-price" > Rs.55,000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="four" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-five" src="images/image-five.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-five">Xiaomi Redmi AirDots</h5>
+            <p class="card-text card-text-height" id="p-five"><small class="text-muted">
+              Redmi AirDots TWS Bluetooth earbuds with 12h ...
+                Auto pairing
+                Bluetooth 5.0
+                12h long battery life
+                Mono & binaural mode.</small></p>
+                <center><h4 id="h4-five">3150</h4><span class="old-price" > Rs.4,500</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="five" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-six" src="images/image-six.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-six">XPG Gaming Mouse</h5>
+            <p class="card-text card-text-height" id="p-six"><small class="text-muted">
+              Introducing the XPG PRIMER gaming mouse. Whet...
+              Durable Double-Shot Surface with PBT
+              Textured Side Grips for Long-Session Comfort
+            </small></p>
+                <center><h4 id="h4-six">6900</h4><span class="old-price" > Rs.6,500</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="six" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-seven" src="images/image-seven.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-seven">Dell G5 Gaming Laptop</h5>
+            <p class="card-text card-text-height" id="p-seven"><small class="text-muted">
+              15-inch gaming laptop with 10th Gen Intel®Cor...
+
+                10th Generation Intel® Core™ i5-10300H (8MB Cache, up to 4.5 GHz, 4 cores)
+                8GB DDR4-2933MHz, 256GB M.2 PCIe NVMe SSD
+                NVIDIA® GeForce® GTX 1660 Ti 6GB GDDR6
+                 US Backlit Keyboard. 15.6" FHD Display
+            </small></p>
+                <center><h4 id="h4-seven">189999</h4><span class="old-price" > Rs.200,000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="seven" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-eight" src="images/image-eight.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-eight">Tronsmart Encore S6</h5>
+            <p class="card-text card-text-height" id="p-eight"><small class="text-muted">
+              Tronsmart Encore S6 Wireless bluetooth Headse...
+
+              Tronsmart Encore S6 Active Noise Cancelling Headphones
+              Active Noise Cancelling Technology
+              Less Distraction, More Immersion
+              Bluetooth and Wired Audio Options
+            </small></p>
+                <center><h4 id="h4-eight">5999</h4><span class="old-price" > Rs.6500</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="eight" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<br>
+
+<section id="newproduct">
+  <div class="container">
+
+
+    <div class="alert alert-primary" role="alert">
+      <center><h2> New Arrivals <h2></center>
+    </div>
+
+    <div class="row">
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top img-height" id="image-nine" src="images/image-nine.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" id="h5-nine">Sony PlayStation</h5>
+              <p class="card-text card-text-height" id="p-nine"><small class="text-muted">
+                The Sony DUALSHOCK 4 Wireless Controller come...
+
+                Precision Control
+                Refined Analog Sticks
+                New Ways to Play
+                Sharing at Your Fingertips</small></p>
+                <center><h4 id="h4-nine">11000</h4><span class="old-price" > Rs.11,500</span></center>
+              <hr><a href="viewproduct.html">
+              <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="nine" onclick="view(this.id)">View Product</button></a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top img-height" id="image-ten" src="images/image-ten.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" id="h5-ten">HP ENVY x360 </h5>
+              <p class="card-text card-text-height" id="p-ten"><small class="text-muted">
+                Product number: 9HP23UA. 15.6" diagonal FHD I...
+
+                Intel® Core™ i5-1035G1
+                8 GB DDR4-3200 SDRAM, 256GB PCIe® NVMe™ M.2 SSD
+                Intel® UHD Graphics
+                Windows 10 Home 64</small></p>
+                <center><h4 id="h4-ten">150000</h4><span class="old-price" > Rs.160000</span></center>
+              <hr><a href="viewproduct.html">
+              <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="ten" onclick="view(this.id)">View Product</button></a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-eleven" src="images/image-eleven.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-eleven">Mouse Bungee</h5>
+            <p class="card-text card-text-height" id="p-eleven"><small class="text-muted">
+              The ultimate cable management for your gaming...
+
+              Dimension: 63 x 97 x 88mm
+              Weight: 265 grams
+              Weight: 265 grams
+              Base: Rubber.</small></p>
+                <center><h4 id="h4-eleven">7000</h4><span class="old-price" > Rs.7,499</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="eleven" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-twelve" src="images/image-twelve.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-twelve">Lenovo ThinkBook 15</h5>
+            <p class="card-text card-text-height" id="p-twelve"><small class="text-muted">
+              Powered by 10th Gen Intel® Core™ processing, ...
+
+              Intel Core i5-1035G1 Processor
+              4GB Soldered DDR4 | 1TB HDD 5400rpm 2.5"
+              AMD Radeon 630 2GB GDDR5
+              15.6" FHD Display | FingerPrint Reader | DOS</small></p>
+                <center><h4 id="h4-twelve">94000</h4><span class="old-price" > Rs.95,000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="twelve" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-thirteen" src="images/image-thirteen.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-thirteen">XPG Precog</h5>
+            <p class="card-text card-text-height" id="p-thirteen"><small class="text-muted">
+              The XPG PRECOG is the world’s first dual-driv...
+
+                Dual Drivers including (Electrostatic and Dynamic)
+                Hi-Res Audio Certified
+                Built-in FPS / Virtual 7.1 Surround Sound / Music Modes
+                Environmental Noise Cancellation Technology for Microphone</small></p>
+                <center><h4 id="h4-thirteen">21000</h4><span class="old-price" > Rs.22500</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="thirteen" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-fourteen" src="images/image-fourteen.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-fourteen">Edifier Speaker</h5>
+            <p class="card-text card-text-height" id="p-fourteen"><small class="text-muted">
+              EDIFIER classic model, simple and tough desig...
+
+              Total 34 Watts R.M.S Power
+              Subwoofer:18W Satellite:8W*2
+              Bass: 5 inch
+              Mid-range and treble:2.5inch
+            </small></p>
+                <center><h4 id="h4-fourteen">9900</h4><span class="old-price" > Rs.11500</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="fourteen" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-fifteen" src="images/image-fifteen.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-fifteen">ASUS Monitor</h5>
+            <p class="card-text card-text-height" id="p-fifteen"><small class="text-muted">
+              The ASUS VP28UQG gaming display is built for ...
+
+              28-inch 4K UHD (3840 x 2160) monitor for stunning photo-realistic visuals
+              Lightning-fast 1ms rapid response time and Adaptive-Sync technology
+              Extensive connectivity with DisplayPort1.2, HDMI(v2.0) x 2
+              ASUS-exclusive GamePlus
+            </small></p>
+                <center><h4 id="h4-fifteen">14999</h4><span class="old-price" > Rs.16,000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="fifteen" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top img-height" id="image-sixteen" src="images/image-sixteen.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" id="h5-sixteen">Cooler Maste</h5>
+            <p class="card-text card-text-height" id="p-sixteen"><small class="text-muted">
+              New pump design with upgraded internal compon...
+
+              Dual Chamber Pump
+              PPS-Fiberglass Housing Pump
+              Tri-Phase Motor with Silent Driver
+              Triple Industrial Grade EPDM Rubber
+            </small></p>
+                <center><h4 id="h4-sixteen">17999</h4><span class="old-price" > Rs.19000</span></center>
+            <hr><a href="viewproduct.html">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" id="sixteen" onclick="view(this.id)">View Product</button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<br>
+
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h1><span style="color:white;">Computer</span> Solution</h1>
+        <p>Welcome to Computer Solution. Online Computer store in Pakistan. Buy Dell, Lenovo, HP, Acer laptops at best prices in Pakistan.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+
+        <h3>Products</h3>
+
+
+            <a href=""><li>Laptop</li></a>
+            <a href=""><li>Moniter</li></a>
+            <a href=""><li>Printer</li></a>
+
+
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h3>Follow Us</h3>
+         <p><a href="#"> <i class="fab fa-facebook fa-2x"></i></a></p>
+         <p><a href="#"><i class="fab fa-instagram fa-2x"></i></a></p>
+         <p><a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a></p>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h3>Contact Us</h3>
+         <p><i class="fas fa-map-marker-alt fa-2x"></i><br>Address : shop 14 main computer market</p>
+         <p><i class="far fa-envelope fa-2x"></i><br>abcd123@gmail.com </p>
+         <p><i class="fas fa-phone fa-2x"></i><br>0310123456</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

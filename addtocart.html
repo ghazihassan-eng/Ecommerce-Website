@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add To Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5eb3f4492a.js" crossorigin="anonymous"></script>
+
+
+
+  </head>
+  <body>
+
+
+    <section id="navbar">
+      <nav class="navbar bg-primary navbar-expand-lg navbar-dark ">
+        <div class="container">
+
+
+    <a class="navbar-brand" href="#"><h1><span style="color:purple;">Computer</span> Solution</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="laptop.html">Laptop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="monitor.html">Monitor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="printer.html">Printer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="laptop.html">Laptop</a>
+          <a class="dropdown-item" href="monitor.html">Monitor</a>
+          <a class="dropdown-item" href="keyboard.html">Keyboard</a>
+          <a class="dropdown-item" href="mouse.html">Mouse</a>
+          <a class="dropdown-item" href="printer.html">Printer</a>
+
+        </div>
+      </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+
+<div class="spacer">
+
+</div>
+
+<section id="cart">
+  <div class="container-fluid">
+
+
+  <div class="row">
+
+    <div class="col col-lg-6 col-md-12 col-sm-12">
+
+
+
+      <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstname">First Name</label>
+              <input type="text" class="form-control" required placeholder="First name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastname">Last Name</label>
+              <input type="text" class="form-control" required placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" required id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="Phone">Phone</label>
+            <input type="text" class="form-control" required placeholder="Phone Number">
+          </div>
+          <div class="form-row">
+
+            <div class="form-group col-md-4">
+              <label for="inputState">City</label>
+              <select id="inputState" required class="form-control">
+                <option selected>Karachi</option>
+                <option>Lahore</option>
+                <option>Islamabad</option>
+                <option>Rawalpindi</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" required class="form-control" id="inputZip">
+
+            </div>
+
+
+
+          </div>
+            <button class="btn btn-primary btn-lg" type="submit" name="button">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+    </div>
+
+    <div class="col col-lg-6 col-md-12 col-sm-12">
+      <center><h5>CART SECTION</h5></center><hr>
+      <div class="row">
+        <div class="col col-lg-3">
+          <img src="" alt="" id="cart-image" style="width:50px; height:50px;">
+        </div>
+        <div class="col col-lg-6" >
+          <h5 id="cart-heading">hello</h5><br>
+        </div>
+        <div class="col col-lg-3" >
+          <p id="cart-price">hello</p>
+        </div>
+
+      </div>
+
+
+        <input type="number" class="form-control" name="" value="" placeholder="1" id="value"><br>
+        <h5>COD Price : <span id="#">100</span> </h5>
+        <h2>Total Price : <span id="yourbill">50</span> </h2>
+
+        <button type="button" class="btn btn-outline-secondary" onclick="price_calculation()">Calculate Bill</button>
+        <hr><br>
+
+
+
+
+    </div>
+
+
+
+  </div>
+  <center>
+
+                <a href="index.html" class="btn btn-primary  active btn-lg " type="submit" role="button" aria-pressed="true" onclick="message()">Check Out</a>
+
+  </center>
+  </div>
+</section>
+
+<div class="spacer">
+
+</div>
+
+
+  <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h1><span style="color:white;">Computer</span> Solution</h1>
+            <p>Welcome to Computer Zone. Online Computer store in Pakistan. Buy Dell, Lenovo, HP, Acer laptops at best prices in Pakistan.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12">
+
+            <h3>Products</h3>
+
+
+                <a href=""><li>Laptop</li></a>
+                <a href=""><li>Moniter</li></a>
+                <a href=""><li>Printer</li></a>
+
+
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h3>Follow Us</h3>
+             <p><a href="#"> <i class="fab fa-facebook fa-2x"></i></a></p>
+             <p><a href="#"><i class="fab fa-instagram fa-2x"></i></a></p>
+               <p><a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a></p>
+            </div>
+
+           <div class="col-lg-3 col-md-3 col-sm-12">
+              <h3>Contact Us</h3>
+               <p><i class="fas fa-map-marker-alt fa-2x"></i><br>Address : shop 14 main computer market</p>
+               <p><i class="far fa-envelope fa-2x"></i><br>Computersolution123@gmail.com </p>
+               <p><i class="fas fa-phone fa-2x"></i><br>0310123456</p>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+
+
+
+<script>
+
+      document.getElementById("cart-image").src = localStorage.getItem("textvalue5");
+      document.getElementById("cart-heading").innerHTML = localStorage.getItem("textvalue6");
+      document.getElementById("cart-price").innerHTML = localStorage.getItem("textvalue7");
+      document.getElementById("yourbill").innerHTML = localStorage.getItem("textvalue7");
+
+      function price_calculation()
+      {
+        var p = document.getElementById("value").value * parseInt(document.getElementById("cart-price").textContent);
+
+        if(p>0)
+        {
+          p=p+100;
+          document.getElementById("yourbill").textContent = p;
+        }
+        else{
+          alert("ENTER WRITE QUANTITY")
+        }
+
+      }
+      function message(){
+        alert("THANK YOU FOR ORDER,YOUR PRODUCT WILL BE DELIVERED STEP IN 5 DAYS, PLEASE CONTINUE SHOPPING");
+
+      }
+
+
+
+</script>
+
+
+  </body>
+
+
+</html>
